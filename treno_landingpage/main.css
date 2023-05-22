@@ -1,0 +1,380 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Ubuntu:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#primeira-section{
+    background-image: url(images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+#segunda-section{
+    background: linear-gradient(241.51deg, #004368 7.13%, #001C2D 88.69%);
+    display: block;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+}
+
+#div-1{
+    margin: auto;
+    text-align: left;
+    padding-top: 2rem ;
+}
+#div-1 h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 43px;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+#div-1 img{
+    padding-left: 1rem;
+    
+}
+#div-2{
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    padding-top: 2rem;
+    justify-items: flex-end;
+}
+#div-2 img{
+    width: 100%;
+    align-items: center;
+}
+
+
+.titulo-section-2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 2rem ;
+    font-size: 45px;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+#div-3{
+    display: flex;
+    margin: auto;
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+
+
+#div-4{
+    margin: auto;
+    align-items: center;
+}
+#div-5{
+    margin: auto;
+    align-items: center;
+    max-width: 45%;
+}
+#div-5 p{
+    font-size: 22px;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+#div-5 img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 18px;
+}
+
+
+
+button{
+    background: #427B16;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFF;
+    padding: 10px 40px 10px 40px;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 2rem;
+}
+.button-1{
+    background: #427B16;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFF;
+    padding: 10px 40px 10px 40px;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 2rem;
+    display: flex;
+    margin: auto;
+}
+#div-icon div{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFF;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+#div-icon hr{
+    margin: 0px 30px 0px 30px;
+    
+}
+#div-icon img{
+    margin: 0px 30px 0px 10px;
+    
+}
+
+#footer-section{
+    background-image: url(/images/bg-foot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.footer-titulo{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    margin-bottom: 20px;
+    /* or 35px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #B89140 0%, rgba(162, 127, 55, 0.84) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.subtitulo{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-texto{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 420px){
+
+    section{
+        display: block;
+        justify-content: center;
+    }
+    
+    #primeira-section{
+        background-image: url(images/Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 4rem;
+    }
+    #segunda-section{
+        background: linear-gradient(241.51deg, #004368 7.13%, #001C2D 88.69%);
+        display: block;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 4rem;
+    }
+    
+    #div-1{
+        margin: auto;
+        text-align: left;
+        padding-top: 2rem ;
+    }
+    #div-1 h1{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        color: #FFF;
+        font-size: 27px;
+        padding-top: 2rem;
+    }
+    #div-1 img{
+        margin: auto;
+        align-items: center;
+        display: flex;
+        
+    }
+    #div-2{
+        margin: auto;
+        align-items: center;
+        height: 100%;
+        padding-top: 2rem;
+        justify-items: flex-end;
+    }
+    #div-2 img{
+        width: 100%;
+        align-items: center;
+    }
+    
+    
+    .titulo-section-2{
+        text-align: center;
+        justify-content: center;
+        padding-top: 4rem;
+        padding-bottom: 2rem ;
+        font-size: 27px;
+        color: #FFF;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #div-3{
+        display: block;
+        margin: auto;
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    
+    #div-4{
+        margin: auto;
+        align-items: center;
+    }
+
+    
+    #div-4 img{
+        margin: auto;
+        align-items: center;
+        width: 320px;
+    }
+
+    #div-5{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    #div-5 p{
+        font-size: 18px;
+        color: #FFF;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #div-5 img{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 18px;
+    }
+    
+    
+    
+    button{
+        background: #427B16;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FFF;
+        padding: 10px 40px 10px 40px;
+        border-radius: 40px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 2rem;
+    }
+    .button-1{
+        background: #427B16;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FFF;
+        padding: 10px 40px 10px 40px;
+        border-radius: 40px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 2rem;
+        display: flex;
+        margin: auto;
+    }
+    #div-icon div{
+        display: flex;
+        font-family: 'Ubuntu', sans-serif;
+        color: #FFF;
+        flex-direction: row;
+        margin: 1rem;
+    }
+    
+    #div-icon hr{
+        margin: 0px 30px 0px 30px;
+        
+    }
+    #div-icon img{
+        margin: 0px 30px 0px 10px;
+        
+    }
+    
+    #footer-section{
+        background-image: url(/images/bg-foot.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        padding: 2rem;
+        justify-content: center;
+    }
+    
+    .footer-titulo{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 140%;
+        margin-bottom: 20px;
+        /* or 35px */
+    
+        text-align: center;
+        text-transform: uppercase;
+    
+        background: linear-gradient(180deg, #B89140 0%, rgba(162, 127, 55, 0.84) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    
+    .subtitulo{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+    
+        letter-spacing: 0.2em;
+    
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-texto{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
